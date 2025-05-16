@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74E2F687-B04A-7D5C-D1D1-2505861F719D" name="tel">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>1B32BEDC-A3DA-E553-6DA3-695444D23ED6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>Telefone</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero" id="264095FF-7460-A818-0765-9C822D97967E">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>4D5B7929-283A-D501-8159-DFAE4EFDDC33</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="8D861DB5-7EF3-3C6C-4DCA-7637D132CB9D">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>88F53D50-6923-F280-B6D3-98E703D264AD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asd_cpf" id="CCC1494A-8F42-B67B-8209-0617435CCE12">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>22B7344B-F5E9-C011-3A65-D32517D4701B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="200A414C-D6C1-4473-99AE-4463B8D2CB2F" referredColumn="3BBED8AD-ED7B-6643-4A6A-16A5973022BA"/>
+</associations>
+</Column>
+<Column name="dpt_cpf" id="19DB6FA6-597E-CDE6-90B1-502CE0179E32">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>AA4B5906-AE7B-15C2-E333-A41168D43963</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="645BF3A1-6AFE-3811-4566-D9A4DE75C022" referredColumn="1E08F882-733C-559A-BA0C-896BBF434532"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A4DE875-1822-9007-C8AB-B21A64787ADD" name="tel_asd_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>8D075C83-2250-D116-2161-49CFC4E8B084</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCC1494A-8F42-B67B-8209-0617435CCE12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBA26B4E-1120-A248-22D5-90A564F39FAD" name="tel_dpt_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>0F77E063-236C-9D4B-3A10-1BD2782925B8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19DB6FA6-597E-CDE6-90B1-502CE0179E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

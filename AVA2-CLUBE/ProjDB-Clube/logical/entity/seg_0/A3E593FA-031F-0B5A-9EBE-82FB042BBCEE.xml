@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E593FA-031F-0B5A-9EBE-82FB042BBCEE" name="Mensalidade">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:50:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>msl</preferredAbbreviation>
+<shortName>Mensalidade</shortName>
+<synonym>Mensalidade</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mensalidade_id" id="99495FC8-987C-8692-9396-C0FF6D4CC306">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:51:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="associado_id" id="BC48BE7C-601F-85C6-5D42-8DAE53CB03FD">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:51:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="BC933DC9-2D13-E82F-E449-3B2E3D5DC650">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:51:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimento" id="65820C20-431E-7D50-5B97-7E78B6965E04">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:51:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="C4092BF0-309F-C2B4-88E0-7001F99B1853">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:29:04 UTC</createdTime>
+<generatorID>08A16E6D-4909-07E1-03EE-D86290B9F7C0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<referedAttribute>24E4DE86-A090-3157-C876-53E76261BC41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BD658B2-8512-F829-A813-00A769CCCC48" name="Mensalidade PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-15 23:51:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99495FC8-987C-8692-9396-C0FF6D4CC306</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

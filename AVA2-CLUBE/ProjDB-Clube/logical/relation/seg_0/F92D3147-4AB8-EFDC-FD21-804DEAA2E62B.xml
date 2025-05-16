@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dependente_endereco" directorySegmentName="seg_0" id="F92D3147-4AB8-EFDC-FD21-804DEAA2E62B">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="82BAB948-1FD5-58E7-20A7-32E930E27CFD" value="true"/>
+</engineerTo>
+<sourcePk>38CC7CB7-2562-907A-FE13-5E4525BB38A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D7F44D8-BD61-D945-AD3A-1DF6B273F8DE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>704AE811-E463-FCA0-3586-79985D2BA351</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

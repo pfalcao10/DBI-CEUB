@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F85E4556-7259-76CE-1169-0E91D8FDE15C" name="dpt">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>2D7F44D8-BD61-D945-AD3A-1DF6B273F8DE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<abbreviation>Dependente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dependente_id" id="F1A0D4A6-D6B2-B9C2-C2AF-59D7C6E34063">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>765D24E7-6067-FDA0-3A7F-C60FB655BB6C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="associado_id" id="4E1A7F5E-B0F5-C38C-8DB3-ADE4D9886593">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>4CE60499-BA24-B56A-C5A0-BB4D3194FC8C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="1E08F882-733C-559A-BA0C-896BBF434532">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>8936902E-F7E2-FA72-369C-04FABEC6A92C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="61758A6C-62B1-F262-1AF8-BF95DC67CE2F">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>BA0169B4-5954-66E1-607D-8F4F691BB826</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asd_associado_id" id="0F542A02-F2C8-E1B1-A977-BEE43FCAC3AB">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>1B7E1E46-1E90-C962-B5C1-0D41125430D1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf1" id="3ECC908D-28FD-7F51-F53D-13517A4C93E8">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:49:50 UTC</createdTime>
+<generatorID>41CB9446-BDE1-2D41-9A10-8CE33455EBF1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0EDC0AF-0754-F3DE-0B33-A0DE4AB52A99" referredColumn="3BBED8AD-ED7B-6643-4A6A-16A5973022BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FF7BC37-6F01-5413-6323-F00020FD18F6" name="dpt_PK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>38CC7CB7-2562-907A-FE13-5E4525BB38A9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E08F882-733C-559A-BA0C-896BBF434532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C8450B-311B-31DC-1781-432FEFC5C639" name="dpt_asd_FK">
+<createdBy>p.falcao</createdBy>
+<createdTime>2025-05-16 00:22:27 UTC</createdTime>
+<generatorID>2098BB01-E575-0D4D-19A5-C37D8E1DB226</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ECC908D-28FD-7F51-F53D-13517A4C93E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
