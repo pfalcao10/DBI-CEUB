@@ -7,6 +7,11 @@
  
  [X] - DBI-Avaliação 2-03 - AVA2-PEDIDOS
 
+
+- Nomes de alguns projetos estão fora do padrão solicitado.
+- Não seguiu a regra do nome no COMMIT CHANGE.
+
+
 ## b) Recomendo reforçar seus estudos em:
 
  [ ] - Abstração no negócio
@@ -15,5 +20,3 @@
  
  [X] - Relacionamentos e cardinalidades: Estude os relacionamentos de 1-1, n-n e n-1 e correlacione com nas regras da normalização.
 
-
-Nomes de alguns projetos estão fora do padrão solicitado.
